@@ -5,7 +5,8 @@ public class Avatar implements Classe, Elemento{
 
     @Override
     public void descricao() {
-        System.out.println("Avatares são desconhecidos.");
+        System.out.println("Classe: Avatar"
+                + "Avatares são desconhecidos.");
     }
 
     @Override

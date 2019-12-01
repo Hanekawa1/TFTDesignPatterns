@@ -1,4 +1,4 @@
-package teamfighttactics;
+package Elemento;
 
 public interface Elemento {
     public void aprimoramento();

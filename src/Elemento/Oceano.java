@@ -1,4 +1,4 @@
-package teamfighttactics;
+package Elemento;
 
 public class Oceano implements Elemento{
     public String nomeElemento = "Oceano";

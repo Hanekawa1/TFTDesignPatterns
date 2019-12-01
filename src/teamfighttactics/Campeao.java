@@ -1,5 +1,8 @@
 package teamfighttactics;
 
+import Elemento.Elemento;
+import Classe.Classe;
+
 public class Campeao implements Composicao{
     private String nome;
     private int custo;

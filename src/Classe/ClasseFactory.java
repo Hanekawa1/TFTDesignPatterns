@@ -1,5 +1,5 @@
 
-package teamfighttactics;
+package Classe;
 
 public class ClasseFactory {
     

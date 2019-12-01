@@ -1,5 +1,8 @@
 package teamfighttactics;
 
+import Elemento.ElementoFactory;
+import Classe.ClasseFactory;
+
 public class CampeaoBuilder {
     private Campeao campeao;
     

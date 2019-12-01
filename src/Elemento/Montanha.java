@@ -1,4 +1,4 @@
-package teamfighttactics;
+package Elemento;
 
 public class Montanha implements Elemento {
     private String nomeElemento = "Montanha";

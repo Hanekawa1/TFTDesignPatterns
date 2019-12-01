@@ -1,6 +1,6 @@
 package teamfighttactics;
 
-public class Campeao {
+public class Campeao implements Composicao{
     private String nome;
     private int custo;
     private Classe classe;
@@ -14,6 +14,7 @@ public class Campeao {
         this.nome = nome;
     }
 
+    @Override
     public int getCusto() {
         return custo;
     }
@@ -49,5 +50,9 @@ public class Campeao {
         this.getClasse().descricao();
         this.getClasse().efeito();
         this.getElemento().aprimoramento();
+    }
+    
+    public String getComposicao(){
+        return this.getNome();
     }
 }

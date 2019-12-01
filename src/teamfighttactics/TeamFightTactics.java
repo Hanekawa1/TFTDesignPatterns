@@ -21,6 +21,23 @@ public class TeamFightTactics {
                         .deClasse("Patrulheiro")
                         .comElemento("Oceano")
                         .build();
-        ashe.exibeStatus();
+        //ashe.exibeStatus();
+        
+        Campeao zed = new CampeaoBuilder()
+                        .comNome("Zed")
+                        .comCusto(5)
+                        .deClasse("Assasino")
+                        .comElemento("Inferno")
+                        .build();
+        //zed.exibeStatus();
+        
+        System.out.println(ashe.getComposicao());
+        
+        Composicao time1 = new Formacao(ashe,zed);
+        
+        System.out.println(time1.getComposicao());
+        
+        
+    
     }
 }

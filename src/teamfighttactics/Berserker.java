@@ -5,7 +5,7 @@ public class Berserker implements Classe{
 
     @Override
     public void descricao() {
-        System.out.println("Classe: Berseker"
+        System.out.println("Classe: Berseker\n"
                 + "Berserkers no início do combate, saltam na primeira unidade a sua frente.");
     }
 

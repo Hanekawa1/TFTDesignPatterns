@@ -16,7 +16,9 @@ public class Avatar implements Classe, Elemento{
     
     @Override
     public void aprimoramento(){
-        System.out.println("Avatares não contém elementos");
+        System.out.println(
+                "Elemento: Nenhum[Avatar]\n"
+               +"Avatares não contém aprimoramentos");
     }
     
 }

@@ -5,7 +5,8 @@ public class Assasino implements Classe{
 
     @Override
     public void descricao() {
-        System.out.println("Assassinos se esgueiram pela arena no início do combate, colocando-se na posição oposta de onde começaram.");
+        System.out.println("Classe: Assasino"
+                + "Assassinos se esgueiram pela arena no início do combate, colocando-se na posição oposta de onde começaram.");
     }
     
     @Override

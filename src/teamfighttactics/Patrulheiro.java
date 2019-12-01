@@ -5,7 +5,8 @@ public class Patrulheiro implements Classe{
 
     @Override
     public void descricao() {
-        System.out.println("Patrulheiros atacam de longe com armas ou arcos.");
+        System.out.println("Classe: Patrulheiro"
+                + "Patrulheiros atacam de longe com armas ou arcos.");
     }
 
     @Override

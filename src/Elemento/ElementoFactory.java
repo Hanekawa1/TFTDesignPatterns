@@ -1,4 +1,6 @@
-package teamfighttactics;
+package Elemento;
+
+import Classe.Avatar;
 
 public class ElementoFactory {
     public Elemento fabricaElemento(String elemento){

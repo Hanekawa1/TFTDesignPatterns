@@ -1,4 +1,4 @@
-package teamfighttactics;
+package Classe;
 
 public class Patrulheiro implements Classe{
     private String nomeClasse = "Patrulheiro"; 

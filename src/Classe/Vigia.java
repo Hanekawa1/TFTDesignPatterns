@@ -1,4 +1,4 @@
-package teamfighttactics;
+package Classe;
 
 public class Vigia implements Classe{
     private String nomeClasse = "Vigia"; 

@@ -19,28 +19,28 @@ public class Formacao implements Composicao{
 
     @Override
     public void getCampeoesComposicao() {
-        System.out.println("Composição: \n" 
-                +"Campeão: " + this.campeao1.getNome() + "\n" +
+        System.out.println("Composição:\n" 
+                +"Campeão:" + this.campeao1.getNome() + "\n" +
                     "\tCusto: " + this.campeao1.getCusto() + "\n" +
                     "\tClasse : " + this.campeao1.getClasse().getNomeClasse() + "\n" +
                     "\tElemento: " + this.campeao1.getElemento().getNomeElemento() + "\n"
                             
-                +"Campeão: " + this.campeao2.getNome() + "\n" +
+                +"\nCampeão:" + this.campeao2.getNome() + "\n" +
                     "\tCusto: " + this.campeao2.getCusto() + "\n" +
                     "\tClasse : " + this.campeao2.getClasse().getNomeClasse() + "\n" +
                     "\tElemento: " + this.campeao2.getElemento().getNomeElemento() + "\n"
                             
-                +"Campeão: " + this.campeao3.getNome() + "\n" +
+                +"\nCampeão:" + this.campeao3.getNome() + "\n" +
                     "\tCusto: " + this.campeao3.getCusto() + "\n" +
                     "\tClasse : " + this.campeao3.getClasse().getNomeClasse() + "\n" +
                     "\tElemento: " + this.campeao3.getElemento().getNomeElemento() + "\n"
                             
-                +"Campeão: " + this.campeao4.getNome() + "\n" +
+                +"\nCampeão:" + this.campeao4.getNome() + "\n" +
                     "\tCusto: " + this.campeao4.getCusto() + "\n" +
                     "\tClasse : " + this.campeao4.getClasse().getNomeClasse() + "\n" +
                     "\tElemento: " + this.campeao4.getElemento().getNomeElemento() + "\n"
                             
-                +"Campeão: " + this.campeao5.getNome() + "\n" +
+                +"\nCampeão:" + this.campeao5.getNome() + "\n" +
                     "\tCusto: " + this.campeao5.getCusto() + "\n" +
                     "\tClasse : " + this.campeao5.getClasse().getNomeClasse() + "\n" +
                     "\tElemento: " + this.campeao5.getElemento().getNomeElemento() + "\n"

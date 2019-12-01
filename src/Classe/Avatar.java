@@ -1,4 +1,6 @@
-package teamfighttactics;
+package Classe;
+
+import Elemento.Elemento;
 
 public class Avatar implements Classe, Elemento{
     private String nomeElemento = "Nenhum";

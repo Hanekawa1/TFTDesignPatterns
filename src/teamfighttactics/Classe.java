@@ -7,4 +7,6 @@ public interface Classe {
         
     public abstract void efeito();
     
+    public String getNomeClasse();
+    
 }

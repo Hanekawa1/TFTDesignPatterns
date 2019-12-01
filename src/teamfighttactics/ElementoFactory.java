@@ -9,7 +9,7 @@ public class ElementoFactory {
         } else if(elemento.equalsIgnoreCase("Montanha")){
             return new Montanha();
         } else if(elemento.equalsIgnoreCase("Nuvem")){
-            return new Oceano();
+            return new Nuvem();
         }
         
         return new Avatar();

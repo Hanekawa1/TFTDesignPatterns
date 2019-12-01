@@ -1,8 +1,8 @@
-
 package teamfighttactics;
 
 public class Patrulheiro implements Classe{
-
+    private String nomeClasse = "Patrulheiro"; 
+    
     @Override
     public void descricao() {
         System.out.println("Classe: Patrulheiro\n"
@@ -14,4 +14,8 @@ public class Patrulheiro implements Classe{
         System.out.println("Patrulheiros ganham, de tempos em tempos, uma chance de receber um surto de Velocidade de Ataque.\n");
     }
     
+    @Override
+    public String getNomeClasse(){
+        return this.nomeClasse;
+    }
 }

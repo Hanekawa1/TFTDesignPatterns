@@ -3,7 +3,7 @@ package teamfighttactics;
 
 public interface Composicao {
     
-    public String getComposicao();
-    
-    public int getCusto();
+    public void getCampeoesComposicao();   
+    public void getCustoComposicao();  
 }
+

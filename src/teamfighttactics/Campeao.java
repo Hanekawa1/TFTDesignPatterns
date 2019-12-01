@@ -14,7 +14,6 @@ public class Campeao implements Composicao{
         this.nome = nome;
     }
 
-    @Override
     public int getCusto() {
         return custo;
     }
@@ -52,7 +51,14 @@ public class Campeao implements Composicao{
         this.getElemento().aprimoramento();
     }
     
-    public String getComposicao(){
-        return this.getNome();
+    @Override
+    public void getCampeoesComposicao(){
+        System.out.println("Composição: " + this.getNome());
     }
+    
+    @Override
+    public void getCustoComposicao(){
+        System.out.println("Custo: " + this.getCusto());
+    }
+    
 }

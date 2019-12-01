@@ -10,8 +10,8 @@ public class ElementoFactory {
             return new Montanha();
         } else if(elemento.equalsIgnoreCase("Nuvem")){
             return new Oceano();
-        } else {
-            return null;
         }
+        
+        return new Avatar();
     }
 }

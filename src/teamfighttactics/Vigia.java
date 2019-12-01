@@ -5,7 +5,7 @@ public class Vigia implements Classe{
 
     @Override
     public void descricao() {
-        System.out.println("Classe: Vigia"
+        System.out.println("Classe: Vigia\n"
                 + "Vigias são feitos para aguentar grande quantidade de dano");
     }
 
